@@ -1,0 +1,21 @@
+.footer {
+  background-color: $bgColorFooter;
+  padding: 60px 0px;
+}
+
+.footer__container {
+  display: flex;
+}
+
+.social-links--footer {
+  padding: 0px;
+}
+
+.social-links__button-icon--footer {
+  background: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-links__icon--footer {
+  fill: $bgColorPrimary;
+}

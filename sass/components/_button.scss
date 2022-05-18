@@ -1,0 +1,52 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  width: 200px;
+  height: 50px;
+  background-color: $bgColorAccent;
+  border: transparent 1px solid;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: $textColorWhite;
+  cursor: pointer;
+}
+
+.button__icon {
+  width: 24px;
+  height: 24px;
+  fill: $bgColorPrimary;
+  align-items: center;
+}
+
+.button__icon--end {
+  margin-left: 10px;
+}
+
+.button-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  min-width: 30px;
+  min-height: 30px;
+  padding: 0px;
+  border-radius: 50%;
+  background-color: $bgColorPrimary;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+  &:hover .button-close__icon {
+    fill: $bgColorAccent;
+  }
+}
+
+.button-close__icon {
+  width: 11px;
+  height: 11px;
+  fill: currentColor;
+}
