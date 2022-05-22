@@ -1,6 +1,17 @@
 .adress {
   display: block;
   width: 225px;
+
+  text-align: center;
+  width: 100%;
+  margin-bottom: 60px;
+  & .list {
+    display: block;
+  }
+
+  @media screen and (min-width: $desktop) {
+    text-align: left;
+  }
 }
 
 .adress__link {

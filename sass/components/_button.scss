@@ -50,3 +50,50 @@
   height: 11px;
   fill: currentColor;
 }
+
+.menu-button {
+  border: none;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  padding: 12px 8px;
+
+  margin-left: auto;
+  z-index: 3;
+
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    fill: $bgColorAccent;
+  }
+
+  & .icon-cross {
+    display: none;
+  }
+  &.is-open .icon-cross {
+    display: block;
+  }
+  &.is-open .icon-menu {
+    display: none;
+  }
+
+  &.is-open {
+    position: fixed;
+    top: 2%;
+    right: 3%;
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+}
+
+.icon-menu {
+  height: 16px;
+  width: 24px;
+}
+
+.icon-cross {
+  height: 18px;
+  width: 18px;
+}

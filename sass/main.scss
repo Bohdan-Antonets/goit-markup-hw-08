@@ -1,5 +1,6 @@
 @import "./base/base";
 @import "./utils/vars";
+@import "./components/breakpoints";
 @import "./components/body";
 @import "./components/container";
 @import "./components/section";
@@ -24,3 +25,6 @@
 @import "./components/projects";
 @import "./components/backdrop";
 @import "./components/modal";
+@import "./components/menu-container";
+@import "./components/menu-social-links";
+@import "./components/grid";

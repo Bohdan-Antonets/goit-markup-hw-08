@@ -1,3 +1,10 @@
+.activity__section {
+  display: none;
+
+  @media screen and (min-width: $desktop) {
+    display: block;
+  }
+}
 .activity__item:not(:last-child) {
   margin-right: 30px;
 }

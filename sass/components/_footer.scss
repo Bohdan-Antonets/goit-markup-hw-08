@@ -1,10 +1,21 @@
 .footer {
   background-color: $bgColorFooter;
   padding: 60px 0px;
+
+  @media screen and (max-width: 479px) {
+    width: 480px;
+  }
 }
 
 .footer__container {
-  display: flex;
+  display: block;
+
+  @media screen and (min-width: $tablet) {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .social-links--footer {
@@ -18,4 +29,17 @@
 
 .social-links__icon--footer {
   fill: $bgColorPrimary;
+}
+
+.footer__contacts {
+  display: block;
+  text-align: center;
+
+  @media screen and (min-width: $tablet) {
+    margin-right: 165px;
+  }
+  @media screen and (min-width: $desktop) {
+    margin-right: 0px;
+    text-align: left;
+  }
 }
