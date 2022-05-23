@@ -130,7 +130,14 @@
                     <ul class="list">
                         <li class="activity__item">
                             <div class="activity__thumb">
-                                <img class="activity__image no-gap" src="./img/box1.jpg" alt="программирование" width="370" height="294px" ;>
+                                <thumb>
+                                    <img class="activity__image no-gap" 
+                                        srcset="./img/desktop.jpg 370w,
+                                                ./img/desktop@2x.jpg 740w"
+                                        src="./img/desktop.jpg"
+                                        alt="программирование"
+                                        sizes="(min-width: 1200px) 370px">
+                                </thumb>
                                 <div class="activity__wrap">
                                     <p class="activity__caption">Десктопные приложения</p>
                                 </div>
@@ -138,7 +145,11 @@
                         </li>
                         <li class="activity__item">
                             <div class="activity__thumb">
-                                <img class="activity__image no-gap" src="./img/box2.jpg" alt="веб-дизайн" width="370">
+                                <thumb>
+                                    <img class="activity__image no-gap" srcset="./img/mobile.jpg 370w,
+                                                                                ./img/mobile@2x.jpg 740w" src="./img/mobile.jpg"
+                                        alt="программирование" sizes="(min-width: 1200px) 370px">
+                                </thumb>
                                 <div class="activity__wrap">
                                     <p class="activity__caption">Мобильные приложения</p>
                                 </div>
@@ -146,7 +157,11 @@
                         </li>
                         <li class="activity__item">
                             <div class="activity__thumb">
-                                <img class="activity__image no-gap" src="./img/box3.jpg" alt="графический дизайн" width="370">
+                                <thumb>
+                                    <img class="activity__image no-gap" srcset="./img/design.jpg 370w,
+                                                                                ./img/design@2x.jpg 740w" src="./img/design.jpg"
+                                        alt="программирование" sizes="(min-width: 1200px) 370px">
+                                </thumb>
                                 <div class="activity__wrap">
                                     <p class="activity__caption">Дизайнерские решения</p>
                                 </div>
