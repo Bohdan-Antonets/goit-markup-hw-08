@@ -767,6 +767,7 @@ p {
 }
 
 .team__image {
+  width: 100%;
   margin-bottom: 30px;
 }
 
@@ -1228,6 +1229,7 @@ p {
 
 .projects__img {
   display: block;
+  width: 100%;
 }
 
 .projects__item-card {
