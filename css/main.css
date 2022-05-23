@@ -103,7 +103,8 @@ p {
 
 @media screen and (max-width: 767px) {
   .page-header {
-    width: 480px;
+    margin: auto;
+    width: 100%;
   }
 }
 
